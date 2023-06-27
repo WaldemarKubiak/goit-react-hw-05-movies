@@ -1,12 +1,12 @@
-import { useState, useEffect } from 'react';
-import { useSearchParams } from 'react-router-dom';
-import { getSearchMovies } from 'services/getMoviesApi';
-import MoviesList from 'components/MovieList/MovieList';
-import { Loader } from 'components/Loader/Loader';
+// import { useState, useEffect } from 'react';
+// import { useSearchParams } from 'react-router-dom';
+// import { getSearchMovies } from 'services/getMoviesApi';
+// import MoviesList from 'components/MovieList/MovieList';
+// import { Loader } from 'components/Loader/Loader';
 import c from './Movies.module.css'
 
 const Movies = () => {
-  const [searchParams, setSearchParams] = useSearchParams({});
+//   const [searchParams, setSearchParams] = useSearchParams({});
 
   return (
     <>

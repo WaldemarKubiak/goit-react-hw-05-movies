@@ -17,7 +17,6 @@ const Home = () => {
         setIsLoading(true);
         const receivedTrends = await getTrendingMovies();
         setMovies(receivedTrends);
-        // console.log(getTrendingMovies());
       } catch (error) {
         setError(error.message);
         toast.error(`Upss!!! Fetch error: ${error}`);

@@ -12,7 +12,6 @@ const getTrendingMovies = async () => {
       language: 'en-US',
     },
   });
-  // console.log('Get Trending Movies:', data.results);
   return data.results;
 };
 
@@ -40,6 +39,7 @@ const getMovieDetails = async movieId => {
       language: 'en-US',
     },
   });
+
   return data;
 };
 
@@ -52,7 +52,6 @@ const getMovieCredits = async movieId => {
       language: 'en-US',
     },
   });
-  // const { cast } = data;
   return data.cast;
 };
 
@@ -66,6 +65,7 @@ const getMovieReviews = async movieId => {
       page: 1,
     },
   });
+
   return data.results;
 };
 

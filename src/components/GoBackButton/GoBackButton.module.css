@@ -1,0 +1,25 @@
+.container {
+  margin-bottom: 10px;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  background-color: #ddd;
+  font-size: 14px;
+  font-weight: 600;
+  color: #515151;
+
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  transition: background-color 200ms linear;
+
+  &:hover,
+  :focus {
+    color: #f5f5f5;
+    background-color: #5d84b8;
+  }
+}

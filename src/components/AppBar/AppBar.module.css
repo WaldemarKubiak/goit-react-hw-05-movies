@@ -1,6 +1,5 @@
 .header {
   display: flex;
-  /* position: fixed; */
   top: 0;
   left: 0;
   align-items: center;
@@ -20,17 +19,16 @@
 .link {
   font-size: 22px;
   font-weight: 500;
-  color: black;
+  color: #999797;
   text-decoration: none;
 
   &:hover {
-    color: #999797;
+    color: #5d84b8;
     text-decoration: underline;
-    /* transition: color 200ms linear; */
   }
 
   &:not(:last-child) {
-    margin-right: 40px;
+    margin-right: 55px;
   }
 }
 
